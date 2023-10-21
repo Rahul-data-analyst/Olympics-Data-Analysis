@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.figure_factory as ff
 
-df_summer = pd.read_csv('Summer_Data.csv')
+df_summer = pd.read_csv('Summer_Data.zip/Summer_Data.csv')
 df_region = pd.read_csv('regions.csv')
 
 df = Preprocessor.preprocess(df_summer, df_region)
