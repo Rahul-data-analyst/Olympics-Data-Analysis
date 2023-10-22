@@ -14,7 +14,7 @@ df = Preprocessor.preprocess(df_summer, df_region)
 
 st.sidebar.title('Olympics Data Analysis')
 
-st.sidebar.image('https://www.sportzcraazy.com/wp-content/uploads/2018/08/Olympics-Games.jpg')
+st.sidebar.image('https://www.sportzcraazy.com/wp-content/uploads/2018/08/Olympics-Games.jpg',width=235)
 
 Menu_bar = st.sidebar.radio(
     'Select Your Choice',
